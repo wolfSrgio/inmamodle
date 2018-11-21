@@ -1,0 +1,60 @@
+body{
+   background: white;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+.conimagen{
+    border:1px solid red;
+    text-align: center;
+    background: green;
+    padding: 10px;
+    
+}
+.juntoImagen{
+    display: inline-block;
+    background: #837F7E;
+    margin-right: 15px;
+    width:30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    font-size: 30px;
+    border-radius: 20px 20px;
+}
+
+.cajasJugadores{
+    background:gray;
+    text-align: center;
+}
+
+.cajaPuntos{
+  border: 1px solid red;
+  width: 65%;
+ padding-bottom: 15px;
+  text-align: center;
+  margin:0px auto;
+  color:white;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.botones{
+
+     margin:25px;
+     border: 2px solid red;
+     border-radius: 50px 20px;
+}
+#bto{
+    display: none;
+    position: absolute;
+    margin-left: -25%;
+    margin-top: 40%;
+    padding:10px;
+    border-radius: 20px 20px;
+    background-color: azure;
+    color: green;
+
+}
